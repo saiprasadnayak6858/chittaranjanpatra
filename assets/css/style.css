@@ -1051,7 +1051,7 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
+/* #footer {
   padding: 10px;
   color: #f4f6fd;
   font-size: 14px;
@@ -1065,8 +1065,18 @@ section {
 
 #footer .copyright {
   text-align: center;
-}
-
+} */
+.mini-footer {
+  background :#040b14;
+  text-align:center;
+  padding:32px 0
+ }
+ .mini-footer p {
+  margin:0;
+  line-height:10px;
+  font-size:15px;
+  color :#f4f6fd;
+ }
 /* #footer .credits {
   padding-top: 5px;
   text-align: center;
