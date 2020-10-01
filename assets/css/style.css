@@ -120,7 +120,14 @@ h1, h2, h3, h4, h5, h6 {
 #main {
   margin-left: 300px;
 }
-
+#main  h1 {
+  margin: 0;
+  padding: 0 1rem;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #173b6c;
+}
 @media (max-width: 1199px) {
   #header {
     left: -300px;
