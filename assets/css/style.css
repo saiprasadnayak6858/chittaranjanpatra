@@ -347,7 +347,12 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
+.profile-img{
+    border: 2px solid #dee2e6;
+    border-radius:12px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222 );
+    filter: drop-shadow(5px 5px 5px #222);
+}
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -1076,14 +1081,34 @@ section {
 .mini-footer {
   background :#040b14;
   text-align:center;
-  padding:32px 0
+  padding:10px 0;
  }
  .mini-footer p {
   margin:0;
-  line-height:10px;
+  line-height:15px;
   font-size:15px;
   color :#f4f6fd;
  }
+ .mini-footer .social-links a{
+  font-size: 18px;
+  display: inline-block;
+  background: #212431;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+ }
+ .mini-footer .social-links a:hover {
+  background: #149ddd;
+  color: #fff;
+  text-decoration: none;
+}
+
 /* #footer .credits {
   padding-top: 5px;
   text-align: center;
